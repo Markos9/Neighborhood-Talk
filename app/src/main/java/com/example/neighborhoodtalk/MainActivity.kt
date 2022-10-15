@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             binding.button.text = "Login"
         }
         binding.button.setOnClickListener {
-
+            binding.button.text = "Original"
         }
 
     }
